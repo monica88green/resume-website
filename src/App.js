@@ -4,9 +4,9 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-    
+    <div className="container">
         <h1>
-          Hello from Monica's Resume
+          Monica Ledesma
         </h1>
         
         <h3>
@@ -23,10 +23,10 @@ export default function App() {
             + What are my goals?
           </li>
           <li>
-            What's next?
+           + What's next?
           </li>
         </ul>
-
+</div>
     </div>
   );
 }
