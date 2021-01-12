@@ -1,5 +1,8 @@
-
 import './App.css';
+import AboutMe from "./AboutMe";
+import ProfessionalExperience from "./ProfessionalExperience";
+import MyProjects from "./MyProjects";
+import ContactMe from "./ContactMe";
 
 export default function App() {
   return (
@@ -12,20 +15,10 @@ export default function App() {
         <h3>
           HTML5 / CSS / ES6 / GIT / REACT 
         </h3>
-        <ul>
-          <li>
-            + Who am I?
-          </li>
-          <li>
-            + What is my professional experience?
-          </li>
-          <li>
-            + What are my goals?
-          </li>
-          <li>
-           + What's next?
-          </li>
-        </ul>
+        <AboutMe />
+        <ProfessionalExperience />
+        <MyProjects />
+        <ContactMe />
 </div>
     </div>
   );

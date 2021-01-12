@@ -10,3 +10,8 @@
 .App ul {
   list-style-type: none;
 }
+
+.App ul :hover {
+  cursor: pointer;
+  text-decoration: none;
+}
