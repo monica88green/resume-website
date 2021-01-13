@@ -15,7 +15,7 @@ export default function App() {
         <h3>
           HTML5 / CSS / ES6 / GIT / REACT 
         </h3>
-        <AboutMe />
+        <AboutMe ready={false}/>
         <ProfessionalExperience />
         <MyProjects />
         <ContactMe />
