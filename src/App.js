@@ -1,8 +1,10 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutMe from "./AboutMe";
 import ProfessionalExperience from "./ProfessionalExperience";
 import MyProjects from "./MyProjects";
 import ContactMe from "./ContactMe";
+
 
 export default function App() {
   return (
@@ -15,9 +17,12 @@ export default function App() {
         <h3>
           HTML5 / CSS / ES6 / GIT / REACT 
         </h3>
-        <AboutMe ready={false}/>
+        <AboutMe />
+       {""}
         <ProfessionalExperience />
+{""}
         <MyProjects />
+{""}
         <ContactMe />
 </div>
     </div>
